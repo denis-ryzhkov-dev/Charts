@@ -10,6 +10,14 @@
 		8A0CE2A825347F0F0092D7B3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0CE2A625347F0F0092D7B3 /* MainViewController.swift */; };
 		8A0CE2A925347F0F0092D7B3 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A0CE2A725347F0F0092D7B3 /* MainViewController.xib */; };
 		8A0CE2B225347F530092D7B3 /* UIViewController+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0CE2B125347F530092D7B3 /* UIViewController+Utils.swift */; };
+		8A0CE2B8253481D20092D7B3 /* ChartsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0CE2B7253481D20092D7B3 /* ChartsService.swift */; };
+		8A0CE2C0253481DC0092D7B3 /* ChartsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0CE2BF253481DC0092D7B3 /* ChartsProvider.swift */; };
+		8A0CE2C7253482630092D7B3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0CE2C6253482630092D7B3 /* Constants.swift */; };
+		8A0CE2CD253482E60092D7B3 /* responseQuotesMonth.json in Resources */ = {isa = PBXBuildFile; fileRef = 8A0CE2CB253482E60092D7B3 /* responseQuotesMonth.json */; };
+		8A0CE2CE253482E60092D7B3 /* responseQuotesWeek.json in Resources */ = {isa = PBXBuildFile; fileRef = 8A0CE2CC253482E60092D7B3 /* responseQuotesWeek.json */; };
+		8A0CE2D4253483EF0092D7B3 /* BaseQuoteResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0CE2D3253483EF0092D7B3 /* BaseQuoteResponse.swift */; };
+		8A0CE2DC253484840092D7B3 /* QuoteContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0CE2DB253484840092D7B3 /* QuoteContent.swift */; };
+		8A0CE2E1253484A00092D7B3 /* QuoteSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0CE2E0253484A00092D7B3 /* QuoteSymbol.swift */; };
 		8A2687B5253479E20043C30D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2687B4253479E20043C30D /* AppDelegate.swift */; };
 		8A2687B7253479E20043C30D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2687B6253479E20043C30D /* SceneDelegate.swift */; };
 		8A2687B9253479E20043C30D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2687B8253479E20043C30D /* ViewController.swift */; };
@@ -44,6 +52,14 @@
 		8A0CE2A625347F0F0092D7B3 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		8A0CE2A725347F0F0092D7B3 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		8A0CE2B125347F530092D7B3 /* UIViewController+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Utils.swift"; sourceTree = "<group>"; };
+		8A0CE2B7253481D20092D7B3 /* ChartsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsService.swift; sourceTree = "<group>"; };
+		8A0CE2BF253481DC0092D7B3 /* ChartsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsProvider.swift; sourceTree = "<group>"; };
+		8A0CE2C6253482630092D7B3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8A0CE2CB253482E60092D7B3 /* responseQuotesMonth.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = responseQuotesMonth.json; sourceTree = "<group>"; };
+		8A0CE2CC253482E60092D7B3 /* responseQuotesWeek.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = responseQuotesWeek.json; sourceTree = "<group>"; };
+		8A0CE2D3253483EF0092D7B3 /* BaseQuoteResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseQuoteResponse.swift; sourceTree = "<group>"; };
+		8A0CE2DB253484840092D7B3 /* QuoteContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteContent.swift; sourceTree = "<group>"; };
+		8A0CE2E0253484A00092D7B3 /* QuoteSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteSymbol.swift; sourceTree = "<group>"; };
 		8A2687B1253479E20043C30D /* Charts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Charts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A2687B4253479E20043C30D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A2687B6253479E20043C30D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -129,6 +145,42 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		8A0CE2B6253481B60092D7B3 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				8A0CE2B7253481D20092D7B3 /* ChartsService.swift */,
+				8A0CE2BF253481DC0092D7B3 /* ChartsProvider.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		8A0CE2C4253482070092D7B3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8A0CE2CB253482E60092D7B3 /* responseQuotesMonth.json */,
+				8A0CE2CC253482E60092D7B3 /* responseQuotesWeek.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8A0CE2C52534820E0092D7B3 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				8A0CE2C6253482630092D7B3 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		8A0CE2D22534832C0092D7B3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8A0CE2D3253483EF0092D7B3 /* BaseQuoteResponse.swift */,
+				8A0CE2DB253484840092D7B3 /* QuoteContent.swift */,
+				8A0CE2E0253484A00092D7B3 /* QuoteSymbol.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		8A2687A8253479E20043C30D = {
 			isa = PBXGroup;
 			children = (
@@ -154,6 +206,10 @@
 		8A2687B3253479E20043C30D /* Charts */ = {
 			isa = PBXGroup;
 			children = (
+				8A0CE2D22534832C0092D7B3 /* Models */,
+				8A0CE2C52534820E0092D7B3 /* Constants */,
+				8A0CE2C4253482070092D7B3 /* Resources */,
+				8A0CE2B6253481B60092D7B3 /* Networking */,
 				8A0CE2B025347F400092D7B3 /* Extensions */,
 				8A0CE29E25347C840092D7B3 /* Flows */,
 				8A2687B4253479E20043C30D /* AppDelegate.swift */,
@@ -291,6 +347,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A2687C1253479E40043C30D /* LaunchScreen.storyboard in Resources */,
+				8A0CE2CE253482E60092D7B3 /* responseQuotesWeek.json in Resources */,
+				8A0CE2CD253482E60092D7B3 /* responseQuotesMonth.json in Resources */,
 				8A2687BE253479E40043C30D /* Assets.xcassets in Resources */,
 				8A2687BC253479E20043C30D /* Main.storyboard in Resources */,
 				8A0CE2A925347F0F0092D7B3 /* MainViewController.xib in Resources */,
@@ -360,11 +418,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A0CE2B8253481D20092D7B3 /* ChartsService.swift in Sources */,
+				8A0CE2C0253481DC0092D7B3 /* ChartsProvider.swift in Sources */,
 				8A2687B9253479E20043C30D /* ViewController.swift in Sources */,
+				8A0CE2E1253484A00092D7B3 /* QuoteSymbol.swift in Sources */,
 				8A2687B5253479E20043C30D /* AppDelegate.swift in Sources */,
 				8A2687B7253479E20043C30D /* SceneDelegate.swift in Sources */,
 				8A0CE2A825347F0F0092D7B3 /* MainViewController.swift in Sources */,
+				8A0CE2DC253484840092D7B3 /* QuoteContent.swift in Sources */,
 				8A0CE2B225347F530092D7B3 /* UIViewController+Utils.swift in Sources */,
+				8A0CE2C7253482630092D7B3 /* Constants.swift in Sources */,
+				8A0CE2D4253483EF0092D7B3 /* BaseQuoteResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

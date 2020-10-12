@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8A2687B0253479E20043C30D"
-               BuildableName = "Charts.app"
-               BlueprintName = "Charts"
-               ReferencedContainer = "container:Charts.xcodeproj">
+               BuildableName = "QuotesCharts.app"
+               BlueprintName = "QuotesCharts"
+               ReferencedContainer = "container:QuotesCharts.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8A2687B0253479E20043C30D"
-            BuildableName = "Charts.app"
-            BlueprintName = "Charts"
-            ReferencedContainer = "container:Charts.xcodeproj">
+            BuildableName = "QuotesCharts.app"
+            BlueprintName = "QuotesCharts"
+            ReferencedContainer = "container:QuotesCharts.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8A2687B0253479E20043C30D"
-            BuildableName = "Charts.app"
-            BlueprintName = "Charts"
-            ReferencedContainer = "container:Charts.xcodeproj">
+            BuildableName = "QuotesCharts.app"
+            BlueprintName = "QuotesCharts"
+            ReferencedContainer = "container:QuotesCharts.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

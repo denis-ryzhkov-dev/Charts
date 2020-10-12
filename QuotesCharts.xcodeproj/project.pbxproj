@@ -15,9 +15,13 @@
 		8A0CE2C7253482630092D7B3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0CE2C6253482630092D7B3 /* Constants.swift */; };
 		8A0CE2CD253482E60092D7B3 /* responseQuotesMonth.json in Resources */ = {isa = PBXBuildFile; fileRef = 8A0CE2CB253482E60092D7B3 /* responseQuotesMonth.json */; };
 		8A0CE2CE253482E60092D7B3 /* responseQuotesWeek.json in Resources */ = {isa = PBXBuildFile; fileRef = 8A0CE2CC253482E60092D7B3 /* responseQuotesWeek.json */; };
-		8A0CE2D4253483EF0092D7B3 /* BaseQuoteResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0CE2D3253483EF0092D7B3 /* BaseQuoteResponse.swift */; };
+		8A0CE2D4253483EF0092D7B3 /* RootQuoteResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0CE2D3253483EF0092D7B3 /* RootQuoteResponse.swift */; };
 		8A0CE2DC253484840092D7B3 /* QuoteContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0CE2DB253484840092D7B3 /* QuoteContent.swift */; };
 		8A0CE2E1253484A00092D7B3 /* QuoteSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0CE2E0253484A00092D7B3 /* QuoteSymbol.swift */; };
+		8A0CE2E8253489CC0092D7B3 /* ChartsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0CE2E6253489CC0092D7B3 /* ChartsViewController.swift */; };
+		8A0CE2E9253489CC0092D7B3 /* ChartsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A0CE2E7253489CC0092D7B3 /* ChartsViewController.xib */; };
+		8A0CE2F125348A7A0092D7B3 /* ChartsDuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0CE2F025348A7A0092D7B3 /* ChartsDuration.swift */; };
+		8A0CE2F925348B000092D7B3 /* ChartsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0CE2F825348B000092D7B3 /* ChartsViewModel.swift */; };
 		8A2687B5253479E20043C30D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2687B4253479E20043C30D /* AppDelegate.swift */; };
 		8A2687B7253479E20043C30D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2687B6253479E20043C30D /* SceneDelegate.swift */; };
 		8A2687B9253479E20043C30D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2687B8253479E20043C30D /* ViewController.swift */; };
@@ -57,10 +61,14 @@
 		8A0CE2C6253482630092D7B3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		8A0CE2CB253482E60092D7B3 /* responseQuotesMonth.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = responseQuotesMonth.json; sourceTree = "<group>"; };
 		8A0CE2CC253482E60092D7B3 /* responseQuotesWeek.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = responseQuotesWeek.json; sourceTree = "<group>"; };
-		8A0CE2D3253483EF0092D7B3 /* BaseQuoteResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseQuoteResponse.swift; sourceTree = "<group>"; };
+		8A0CE2D3253483EF0092D7B3 /* RootQuoteResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootQuoteResponse.swift; sourceTree = "<group>"; };
 		8A0CE2DB253484840092D7B3 /* QuoteContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteContent.swift; sourceTree = "<group>"; };
 		8A0CE2E0253484A00092D7B3 /* QuoteSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteSymbol.swift; sourceTree = "<group>"; };
-		8A2687B1253479E20043C30D /* Charts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Charts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A0CE2E6253489CC0092D7B3 /* ChartsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsViewController.swift; sourceTree = "<group>"; };
+		8A0CE2E7253489CC0092D7B3 /* ChartsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChartsViewController.xib; sourceTree = "<group>"; };
+		8A0CE2F025348A7A0092D7B3 /* ChartsDuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsDuration.swift; sourceTree = "<group>"; };
+		8A0CE2F825348B000092D7B3 /* ChartsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsViewModel.swift; sourceTree = "<group>"; };
+		8A2687B1253479E20043C30D /* QuotesCharts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuotesCharts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A2687B4253479E20043C30D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A2687B6253479E20043C30D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8A2687B8253479E20043C30D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -68,10 +76,10 @@
 		8A2687BD253479E40043C30D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A2687C0253479E40043C30D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A2687C2253479E40043C30D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8A2687C7253479E40043C30D /* ChartsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChartsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A2687C7253479E40043C30D /* QuotesChartsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuotesChartsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A2687CB253479E40043C30D /* ChartsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsTests.swift; sourceTree = "<group>"; };
 		8A2687CD253479E40043C30D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8A2687D2253479E40043C30D /* ChartsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChartsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A2687D2253479E40043C30D /* QuotesChartsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuotesChartsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A2687D6253479E40043C30D /* ChartsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsUITests.swift; sourceTree = "<group>"; };
 		8A2687D8253479E40043C30D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC6137E45D27FFB2C11FC91A /* Pods-Charts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Charts.release.xcconfig"; path = "Target Support Files/Pods-Charts/Pods-Charts.release.xcconfig"; sourceTree = "<group>"; };
@@ -124,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				8A0CE2A225347C8C0092D7B3 /* Main */,
+				8A0CE2E5253489BA0092D7B3 /* Charts */,
 			);
 			path = Flows;
 			sourceTree = "<group>";
@@ -174,11 +183,22 @@
 		8A0CE2D22534832C0092D7B3 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				8A0CE2D3253483EF0092D7B3 /* BaseQuoteResponse.swift */,
+				8A0CE2D3253483EF0092D7B3 /* RootQuoteResponse.swift */,
 				8A0CE2DB253484840092D7B3 /* QuoteContent.swift */,
 				8A0CE2E0253484A00092D7B3 /* QuoteSymbol.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		8A0CE2E5253489BA0092D7B3 /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				8A0CE2F025348A7A0092D7B3 /* ChartsDuration.swift */,
+				8A0CE2F825348B000092D7B3 /* ChartsViewModel.swift */,
+				8A0CE2E6253489CC0092D7B3 /* ChartsViewController.swift */,
+				8A0CE2E7253489CC0092D7B3 /* ChartsViewController.xib */,
+			);
+			path = Charts;
 			sourceTree = "<group>";
 		};
 		8A2687A8253479E20043C30D = {
@@ -196,9 +216,9 @@
 		8A2687B2253479E20043C30D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8A2687B1253479E20043C30D /* Charts.app */,
-				8A2687C7253479E40043C30D /* ChartsTests.xctest */,
-				8A2687D2253479E40043C30D /* ChartsUITests.xctest */,
+				8A2687B1253479E20043C30D /* QuotesCharts.app */,
+				8A2687C7253479E40043C30D /* QuotesChartsTests.xctest */,
+				8A2687D2253479E40043C30D /* QuotesChartsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -244,9 +264,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8A2687B0253479E20043C30D /* Charts */ = {
+		8A2687B0253479E20043C30D /* QuotesCharts */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8A2687DB253479E40043C30D /* Build configuration list for PBXNativeTarget "Charts" */;
+			buildConfigurationList = 8A2687DB253479E40043C30D /* Build configuration list for PBXNativeTarget "QuotesCharts" */;
 			buildPhases = (
 				8970C678690B86173B6F3422 /* [CP] Check Pods Manifest.lock */,
 				8A2687AD253479E20043C30D /* Sources */,
@@ -258,14 +278,14 @@
 			);
 			dependencies = (
 			);
-			name = Charts;
+			name = QuotesCharts;
 			productName = Charts;
-			productReference = 8A2687B1253479E20043C30D /* Charts.app */;
+			productReference = 8A2687B1253479E20043C30D /* QuotesCharts.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8A2687C6253479E40043C30D /* ChartsTests */ = {
+		8A2687C6253479E40043C30D /* QuotesChartsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8A2687DE253479E40043C30D /* Build configuration list for PBXNativeTarget "ChartsTests" */;
+			buildConfigurationList = 8A2687DE253479E40043C30D /* Build configuration list for PBXNativeTarget "QuotesChartsTests" */;
 			buildPhases = (
 				8A2687C3253479E40043C30D /* Sources */,
 				8A2687C4253479E40043C30D /* Frameworks */,
@@ -276,14 +296,14 @@
 			dependencies = (
 				8A2687C9253479E40043C30D /* PBXTargetDependency */,
 			);
-			name = ChartsTests;
+			name = QuotesChartsTests;
 			productName = ChartsTests;
-			productReference = 8A2687C7253479E40043C30D /* ChartsTests.xctest */;
+			productReference = 8A2687C7253479E40043C30D /* QuotesChartsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		8A2687D1253479E40043C30D /* ChartsUITests */ = {
+		8A2687D1253479E40043C30D /* QuotesChartsUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8A2687E1253479E40043C30D /* Build configuration list for PBXNativeTarget "ChartsUITests" */;
+			buildConfigurationList = 8A2687E1253479E40043C30D /* Build configuration list for PBXNativeTarget "QuotesChartsUITests" */;
 			buildPhases = (
 				8A2687CE253479E40043C30D /* Sources */,
 				8A2687CF253479E40043C30D /* Frameworks */,
@@ -294,9 +314,9 @@
 			dependencies = (
 				8A2687D4253479E40043C30D /* PBXTargetDependency */,
 			);
-			name = ChartsUITests;
+			name = QuotesChartsUITests;
 			productName = ChartsUITests;
-			productReference = 8A2687D2253479E40043C30D /* ChartsUITests.xctest */;
+			productReference = 8A2687D2253479E40043C30D /* QuotesChartsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -321,7 +341,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8A2687AC253479E20043C30D /* Build configuration list for PBXProject "Charts" */;
+			buildConfigurationList = 8A2687AC253479E20043C30D /* Build configuration list for PBXProject "QuotesCharts" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -334,9 +354,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8A2687B0253479E20043C30D /* Charts */,
-				8A2687C6253479E40043C30D /* ChartsTests */,
-				8A2687D1253479E40043C30D /* ChartsUITests */,
+				8A2687B0253479E20043C30D /* QuotesCharts */,
+				8A2687C6253479E40043C30D /* QuotesChartsTests */,
+				8A2687D1253479E40043C30D /* QuotesChartsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -348,6 +368,7 @@
 			files = (
 				8A2687C1253479E40043C30D /* LaunchScreen.storyboard in Resources */,
 				8A0CE2CE253482E60092D7B3 /* responseQuotesWeek.json in Resources */,
+				8A0CE2E9253489CC0092D7B3 /* ChartsViewController.xib in Resources */,
 				8A0CE2CD253482E60092D7B3 /* responseQuotesMonth.json in Resources */,
 				8A2687BE253479E40043C30D /* Assets.xcassets in Resources */,
 				8A2687BC253479E20043C30D /* Main.storyboard in Resources */,
@@ -427,8 +448,11 @@
 				8A0CE2A825347F0F0092D7B3 /* MainViewController.swift in Sources */,
 				8A0CE2DC253484840092D7B3 /* QuoteContent.swift in Sources */,
 				8A0CE2B225347F530092D7B3 /* UIViewController+Utils.swift in Sources */,
+				8A0CE2F125348A7A0092D7B3 /* ChartsDuration.swift in Sources */,
+				8A0CE2E8253489CC0092D7B3 /* ChartsViewController.swift in Sources */,
+				8A0CE2F925348B000092D7B3 /* ChartsViewModel.swift in Sources */,
 				8A0CE2C7253482630092D7B3 /* Constants.swift in Sources */,
-				8A0CE2D4253483EF0092D7B3 /* BaseQuoteResponse.swift in Sources */,
+				8A0CE2D4253483EF0092D7B3 /* RootQuoteResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,12 +477,12 @@
 /* Begin PBXTargetDependency section */
 		8A2687C9253479E40043C30D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8A2687B0253479E20043C30D /* Charts */;
+			target = 8A2687B0253479E20043C30D /* QuotesCharts */;
 			targetProxy = 8A2687C8253479E40043C30D /* PBXContainerItemProxy */;
 		};
 		8A2687D4253479E40043C30D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8A2687B0253479E20043C30D /* Charts */;
+			target = 8A2687B0253479E20043C30D /* QuotesCharts */;
 			targetProxy = 8A2687D3253479E40043C30D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -654,7 +678,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Charts.app/Charts";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuotesCharts.app/QuotesCharts";
 			};
 			name = Debug;
 		};
@@ -675,7 +699,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Charts.app/Charts";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuotesCharts.app/QuotesCharts";
 			};
 			name = Release;
 		};
@@ -720,7 +744,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8A2687AC253479E20043C30D /* Build configuration list for PBXProject "Charts" */ = {
+		8A2687AC253479E20043C30D /* Build configuration list for PBXProject "QuotesCharts" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8A2687D9253479E40043C30D /* Debug */,
@@ -729,7 +753,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8A2687DB253479E40043C30D /* Build configuration list for PBXNativeTarget "Charts" */ = {
+		8A2687DB253479E40043C30D /* Build configuration list for PBXNativeTarget "QuotesCharts" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8A2687DC253479E40043C30D /* Debug */,
@@ -738,7 +762,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8A2687DE253479E40043C30D /* Build configuration list for PBXNativeTarget "ChartsTests" */ = {
+		8A2687DE253479E40043C30D /* Build configuration list for PBXNativeTarget "QuotesChartsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8A2687DF253479E40043C30D /* Debug */,
@@ -747,7 +771,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8A2687E1253479E40043C30D /* Build configuration list for PBXNativeTarget "ChartsUITests" */ = {
+		8A2687E1253479E40043C30D /* Build configuration list for PBXNativeTarget "QuotesChartsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8A2687E2253479E40043C30D /* Debug */,

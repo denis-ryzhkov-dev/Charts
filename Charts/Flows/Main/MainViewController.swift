@@ -9,21 +9,25 @@ import UIKit
 
 class MainViewController: UIViewController {
 
+    //MARK: - Lifecycles
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
 
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    //MARK: - Navigation
+    private func openCharts(for type: ChartsDuration) {
+        let viewController = ChartsViewController.initWithNib() as! ChartsViewController
+        viewController.configure(selectedDuration: type)
+        viewController.modalPresentationStyle = .fullScreen
+        present(viewController, animated: true, completion: nil)
     }
-    */
-
+    
+    //MARK: - Actions
+    @IBAction func weekButtonTouched(_ sender: Any) {
+        openCharts(for: .week)
+    }
+    
+    @IBAction func monthButtonTouched(_ sender: Any) {
+        openCharts(for: .month)
+    }
 }

@@ -17,6 +17,6 @@ final class ChartsProvider {
     // MARK: - Init
     init() {
         self.provider = MoyaProvider()
-        self.stubProvider = MoyaProvider(stubClosure: MoyaProvider<ChartsService>.delayedStub(5))
+        self.stubProvider = MoyaProvider(stubClosure: MoyaProvider<ChartsService>.immediatelyStub)
     }
 }

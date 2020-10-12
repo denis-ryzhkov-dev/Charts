@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Charts.xcodeproj">
+      location = "group:/Users/denisryzhkov/Projects/charts/untitled folder/Charts/QuotesCharts.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

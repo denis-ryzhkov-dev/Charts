@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct BaseQuoteResponse: Codable {
+struct RootQuoteResponse: Codable {
     let content: QuoteContent
     let status: String
 }

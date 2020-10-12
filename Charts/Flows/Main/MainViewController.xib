@@ -18,18 +18,33 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Charts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KfY-aw-1rd">
-                    <rect key="frame" x="181.5" y="437.5" width="51" height="21"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <nil key="textColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="z2k-61-odB">
+                    <rect key="frame" x="117.5" y="385" width="179" height="126"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gU9-3z-Ycf">
+                            <rect key="frame" x="0.0" y="0.0" width="179" height="48"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                            <state key="normal" title="Week quotes"/>
+                            <connections>
+                                <action selector="weekButtonTouched:" destination="-1" eventType="touchUpInside" id="iP5-wB-b0T"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zGz-Rb-zN5">
+                            <rect key="frame" x="0.0" y="78" width="179" height="48"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                            <state key="normal" title="Month quotes"/>
+                            <connections>
+                                <action selector="monthButtonTouched:" destination="-1" eventType="touchUpInside" id="UFb-tg-DhZ"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                </stackView>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
-                <constraint firstItem="KfY-aw-1rd" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="NuS-0o-ghU"/>
-                <constraint firstItem="KfY-aw-1rd" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ONk-Qg-gHI"/>
+                <constraint firstItem="z2k-61-odB" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="mEb-ch-gkf"/>
+                <constraint firstItem="z2k-61-odB" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="sYH-Fb-sKR"/>
             </constraints>
             <point key="canvasLocation" x="138" y="100"/>
         </view>
